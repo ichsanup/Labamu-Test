@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="196.58" tests="8" failures="0" errors="0">
+   <testsuite name="Login" tests="8" failures="0" errors="0" time="196.58" skipped="0" timestamp="2026-01-02 17:10:27" hostname="ichsa - MSI" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value="samsung SM-A125F (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ichsa\\Katalon Studio\\Labamu\\Reports\\20260102_171025\\Login\\20260102_171025"/>
+         <property name="logFiles" value="C:\\Users\\ichsa\\Katalon Studio\\Labamu\\Reports\\20260102_171025\\Login\\20260102_171025\\appium.log, C:\\Users\\ichsa\\Katalon Studio\\Labamu\\Reports\\20260102_171025\\Login\\20260102_171025\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ichsa - MSI"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.9.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A125F"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RR8R5017EJV"/>
+         <property name="deviceName" value="samsung SM-A125F (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/Login by Email" time="26.311" classname="Test Cases/Login by Email" status="PASSED">
+         <system-out><![CDATA[2026-01-02 17:10:27 - [TEST_CASE][PASSED] - Test Cases/Login by Email: Test Cases/Login by Email
+
+2026-01-02 17:10:28 - [TEST_STEP][PASSED] - startExistingApplication("id.co.labamu.app"): Starting app with application ID: 'id.co.labamu.app'
+
+2026-01-02 17:10:28 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2026-01-02 17:10:29 - [MESSAGE][INFO] - Appium server started on port 59,454
+
+2026-01-02 17:10:42 - [MESSAGE][PASSED] - Starting app with application ID: 'id.co.labamu.app'
+
+2026-01-02 17:10:42 - [TEST_STEP][PASSED] - widget = findTestObject("Object Repository/btn-Widget-While"): null
+
+2026-01-02 17:10:42 - [TEST_STEP][PASSED] - if (waitForElementPresent(widget, 5)): Object Object Repository/btn-Widget-While not found
+
+2026-01-02 17:10:47 - [MESSAGE][WARNING] - Object Object Repository/btn-Widget-While not found
+
+2026-01-02 17:10:47 - [TEST_STEP][PASSED] - else: null
+
+2026-01-02 17:10:47 - [TEST_STEP][PASSED] - println("Widget tidak muncul, lanjut step berikutnya"): null
+
+2026-01-02 17:10:47 - [TEST_STEP][PASSED] - btnEmailOption = findTestObject("Object Repository/btn-text-Email-Option"): null
+
+2026-01-02 17:10:47 - [TEST_STEP][PASSED] - inputEmail = findTestObject("Object Repository/edt-Input-Email"): null
+
+2026-01-02 17:10:47 - [TEST_STEP][PASSED] - chkAgreement = findTestObject("Object Repository/btn-CheckBox"): null
+
+2026-01-02 17:10:47 - [TEST_STEP][PASSED] - btnMasuk = findTestObject("Object Repository/btn-Masuk"): null
+
+2026-01-02 17:10:47 - [TEST_STEP][PASSED] - waitForElementPresent(btnEmailOption, 10): Element 'Object Repository/btn-text-Email-Option' is present
+
+2026-01-02 17:10:48 - [MESSAGE][PASSED] - Element 'Object Repository/btn-text-Email-Option' is present
+
+2026-01-02 17:10:48 - [TEST_STEP][PASSED] - tap(btnEmailOption, 10): Tapped on element 'Object Repository/btn-text-Email-Option'
+
+2026-01-02 17:10:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-text-Email-Option'
+
+2026-01-02 17:10:48 - [TEST_STEP][PASSED] - waitForElementPresent(inputEmail, 10): Element 'Object Repository/edt-Input-Email' is present
+
+2026-01-02 17:10:49 - [MESSAGE][PASSED] - Element 'Object Repository/edt-Input-Email' is present
+
+2026-01-02 17:10:49 - [TEST_STEP][PASSED] - tap(inputEmail, 10): Tapped on element 'Object Repository/edt-Input-Email'
+
+2026-01-02 17:10:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/edt-Input-Email'
+
+2026-01-02 17:10:49 - [TEST_STEP][PASSED] - setText(inputEmail, email, 10): Text 'tester@gmail.com' has been set to element 'Object Repository/edt-Input-Email'
+
+2026-01-02 17:10:51 - [MESSAGE][PASSED] - Text 'tester@gmail.com' has been set to element 'Object Repository/edt-Input-Email'
+
+2026-01-02 17:10:51 - [TEST_STEP][PASSED] - tap(chkAgreement, 10): Tapped on element 'Object Repository/btn-CheckBox'
+
+2026-01-02 17:10:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-CheckBox'
+
+2026-01-02 17:10:52 - [TEST_STEP][PASSED] - waitForElementAttributeValue(btnMasuk, "enabled", "true", 10): Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:10:53 - [MESSAGE][PASSED] - Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:10:53 - [TEST_STEP][PASSED] - verifyElementAttributeValue(btnMasuk, "enabled", "true", 10): Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:10:53 - [MESSAGE][PASSED] - Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:10:53 - [TEST_STEP][PASSED] - tap(btnMasuk, 10): Tapped on element 'Object Repository/btn-Masuk'
+
+2026-01-02 17:10:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Masuk'
+
+2026-01-02 17:10:53 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2026-01-02 17:10:54 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login by Email" time="25.576" classname="Test Cases/Login by Email" status="PASSED">
+         <system-out><![CDATA[2026-01-02 17:10:54 - [TEST_CASE][PASSED] - Test Cases/Login by Email: Test Cases/Login by Email
+
+2026-01-02 17:10:54 - [TEST_STEP][PASSED] - startExistingApplication("id.co.labamu.app"): Starting app with application ID: 'id.co.labamu.app'
+
+2026-01-02 17:10:54 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2026-01-02 17:10:55 - [MESSAGE][INFO] - Appium server started on port 59,362
+
+2026-01-02 17:11:06 - [MESSAGE][PASSED] - Starting app with application ID: 'id.co.labamu.app'
+
+2026-01-02 17:11:06 - [TEST_STEP][PASSED] - widget = findTestObject("Object Repository/btn-Widget-While"): null
+
+2026-01-02 17:11:06 - [TEST_STEP][PASSED] - if (waitForElementPresent(widget, 5)): Object Object Repository/btn-Widget-While not found
+
+2026-01-02 17:11:11 - [MESSAGE][WARNING] - Object Object Repository/btn-Widget-While not found
+
+2026-01-02 17:11:11 - [TEST_STEP][PASSED] - else: null
+
+2026-01-02 17:11:11 - [TEST_STEP][PASSED] - println("Widget tidak muncul, lanjut step berikutnya"): null
+
+2026-01-02 17:11:11 - [TEST_STEP][PASSED] - btnEmailOption = findTestObject("Object Repository/btn-text-Email-Option"): null
+
+2026-01-02 17:11:11 - [TEST_STEP][PASSED] - inputEmail = findTestObject("Object Repository/edt-Input-Email"): null
+
+2026-01-02 17:11:11 - [TEST_STEP][PASSED] - chkAgreement = findTestObject("Object Repository/btn-CheckBox"): null
+
+2026-01-02 17:11:11 - [TEST_STEP][PASSED] - btnMasuk = findTestObject("Object Repository/btn-Masuk"): null
+
+2026-01-02 17:11:11 - [TEST_STEP][PASSED] - waitForElementPresent(btnEmailOption, 10): Element 'Object Repository/btn-text-Email-Option' is present
+
+2026-01-02 17:11:12 - [MESSAGE][PASSED] - Element 'Object Repository/btn-text-Email-Option' is present
+
+2026-01-02 17:11:12 - [TEST_STEP][PASSED] - tap(btnEmailOption, 10): Tapped on element 'Object Repository/btn-text-Email-Option'
+
+2026-01-02 17:11:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-text-Email-Option'
+
+2026-01-02 17:11:12 - [TEST_STEP][PASSED] - waitForElementPresent(inputEmail, 10): Element 'Object Repository/edt-Input-Email' is present
+
+2026-01-02 17:11:13 - [MESSAGE][PASSED] - Element 'Object Repository/edt-Input-Email' is present
+
+2026-01-02 17:11:13 - [TEST_STEP][PASSED] - tap(inputEmail, 10): Tapped on element 'Object Repository/edt-Input-Email'
+
+2026-01-02 17:11:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/edt-Input-Email'
+
+2026-01-02 17:11:13 - [TEST_STEP][PASSED] - setText(inputEmail, email, 10): Text 'test@gmail.com' has been set to element 'Object Repository/edt-Input-Email'
+
+2026-01-02 17:11:15 - [MESSAGE][PASSED] - Text 'test@gmail.com' has been set to element 'Object Repository/edt-Input-Email'
+
+2026-01-02 17:11:15 - [TEST_STEP][PASSED] - tap(chkAgreement, 10): Tapped on element 'Object Repository/btn-CheckBox'
+
+2026-01-02 17:11:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-CheckBox'
+
+2026-01-02 17:11:16 - [TEST_STEP][PASSED] - waitForElementAttributeValue(btnMasuk, "enabled", "true", 10): Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:11:17 - [MESSAGE][PASSED] - Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:11:17 - [TEST_STEP][PASSED] - verifyElementAttributeValue(btnMasuk, "enabled", "true", 10): Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:11:17 - [MESSAGE][PASSED] - Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:11:17 - [TEST_STEP][PASSED] - tap(btnMasuk, 10): Tapped on element 'Object Repository/btn-Masuk'
+
+2026-01-02 17:11:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Masuk'
+
+2026-01-02 17:11:19 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2026-01-02 17:11:19 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login by Email" time="24.181" classname="Test Cases/Login by Email" status="PASSED">
+         <system-out><![CDATA[2026-01-02 17:11:19 - [TEST_CASE][PASSED] - Test Cases/Login by Email: Test Cases/Login by Email
+
+2026-01-02 17:11:19 - [TEST_STEP][PASSED] - startExistingApplication("id.co.labamu.app"): Starting app with application ID: 'id.co.labamu.app'
+
+2026-01-02 17:11:19 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2026-01-02 17:11:21 - [MESSAGE][INFO] - Appium server started on port 54,213
+
+2026-01-02 17:11:32 - [MESSAGE][PASSED] - Starting app with application ID: 'id.co.labamu.app'
+
+2026-01-02 17:11:32 - [TEST_STEP][PASSED] - widget = findTestObject("Object Repository/btn-Widget-While"): null
+
+2026-01-02 17:11:32 - [TEST_STEP][PASSED] - if (waitForElementPresent(widget, 5)): Object Object Repository/btn-Widget-While not found
+
+2026-01-02 17:11:37 - [MESSAGE][WARNING] - Object Object Repository/btn-Widget-While not found
+
+2026-01-02 17:11:37 - [TEST_STEP][PASSED] - else: null
+
+2026-01-02 17:11:37 - [TEST_STEP][PASSED] - println("Widget tidak muncul, lanjut step berikutnya"): null
+
+2026-01-02 17:11:37 - [TEST_STEP][PASSED] - btnEmailOption = findTestObject("Object Repository/btn-text-Email-Option"): null
+
+2026-01-02 17:11:37 - [TEST_STEP][PASSED] - inputEmail = findTestObject("Object Repository/edt-Input-Email"): null
+
+2026-01-02 17:11:37 - [TEST_STEP][PASSED] - chkAgreement = findTestObject("Object Repository/btn-CheckBox"): null
+
+2026-01-02 17:11:37 - [TEST_STEP][PASSED] - btnMasuk = findTestObject("Object Repository/btn-Masuk"): null
+
+2026-01-02 17:11:37 - [TEST_STEP][PASSED] - waitForElementPresent(btnEmailOption, 10): Element 'Object Repository/btn-text-Email-Option' is present
+
+2026-01-02 17:11:38 - [MESSAGE][PASSED] - Element 'Object Repository/btn-text-Email-Option' is present
+
+2026-01-02 17:11:38 - [TEST_STEP][PASSED] - tap(btnEmailOption, 10): Tapped on element 'Object Repository/btn-text-Email-Option'
+
+2026-01-02 17:11:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-text-Email-Option'
+
+2026-01-02 17:11:38 - [TEST_STEP][PASSED] - waitForElementPresent(inputEmail, 10): Element 'Object Repository/edt-Input-Email' is present
+
+2026-01-02 17:11:39 - [MESSAGE][PASSED] - Element 'Object Repository/edt-Input-Email' is present
+
+2026-01-02 17:11:39 - [TEST_STEP][PASSED] - tap(inputEmail, 10): Tapped on element 'Object Repository/edt-Input-Email'
+
+2026-01-02 17:11:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/edt-Input-Email'
+
+2026-01-02 17:11:39 - [TEST_STEP][PASSED] - setText(inputEmail, email, 10): Text 'abc@com' has been set to element 'Object Repository/edt-Input-Email'
+
+2026-01-02 17:11:41 - [MESSAGE][PASSED] - Text 'abc@com' has been set to element 'Object Repository/edt-Input-Email'
+
+2026-01-02 17:11:41 - [TEST_STEP][PASSED] - tap(chkAgreement, 10): Tapped on element 'Object Repository/btn-CheckBox'
+
+2026-01-02 17:11:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-CheckBox'
+
+2026-01-02 17:11:42 - [TEST_STEP][PASSED] - waitForElementAttributeValue(btnMasuk, "enabled", "true", 10): Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:11:43 - [MESSAGE][PASSED] - Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:11:43 - [TEST_STEP][PASSED] - verifyElementAttributeValue(btnMasuk, "enabled", "true", 10): Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:11:43 - [MESSAGE][PASSED] - Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:11:43 - [TEST_STEP][PASSED] - tap(btnMasuk, 10): Tapped on element 'Object Repository/btn-Masuk'
+
+2026-01-02 17:11:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Masuk'
+
+2026-01-02 17:11:43 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2026-01-02 17:11:44 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login by Email" time="23.977" classname="Test Cases/Login by Email" status="PASSED">
+         <system-out><![CDATA[2026-01-02 17:11:44 - [TEST_CASE][PASSED] - Test Cases/Login by Email: Test Cases/Login by Email
+
+2026-01-02 17:11:44 - [TEST_STEP][PASSED] - startExistingApplication("id.co.labamu.app"): Starting app with application ID: 'id.co.labamu.app'
+
+2026-01-02 17:11:44 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2026-01-02 17:11:45 - [MESSAGE][INFO] - Appium server started on port 61,634
+
+2026-01-02 17:11:56 - [MESSAGE][PASSED] - Starting app with application ID: 'id.co.labamu.app'
+
+2026-01-02 17:11:56 - [TEST_STEP][PASSED] - widget = findTestObject("Object Repository/btn-Widget-While"): null
+
+2026-01-02 17:11:56 - [TEST_STEP][PASSED] - if (waitForElementPresent(widget, 5)): Object Object Repository/btn-Widget-While not found
+
+2026-01-02 17:12:01 - [MESSAGE][WARNING] - Object Object Repository/btn-Widget-While not found
+
+2026-01-02 17:12:01 - [TEST_STEP][PASSED] - else: null
+
+2026-01-02 17:12:01 - [TEST_STEP][PASSED] - println("Widget tidak muncul, lanjut step berikutnya"): null
+
+2026-01-02 17:12:01 - [TEST_STEP][PASSED] - btnEmailOption = findTestObject("Object Repository/btn-text-Email-Option"): null
+
+2026-01-02 17:12:01 - [TEST_STEP][PASSED] - inputEmail = findTestObject("Object Repository/edt-Input-Email"): null
+
+2026-01-02 17:12:01 - [TEST_STEP][PASSED] - chkAgreement = findTestObject("Object Repository/btn-CheckBox"): null
+
+2026-01-02 17:12:01 - [TEST_STEP][PASSED] - btnMasuk = findTestObject("Object Repository/btn-Masuk"): null
+
+2026-01-02 17:12:02 - [TEST_STEP][PASSED] - waitForElementPresent(btnEmailOption, 10): Element 'Object Repository/btn-text-Email-Option' is present
+
+2026-01-02 17:12:02 - [MESSAGE][PASSED] - Element 'Object Repository/btn-text-Email-Option' is present
+
+2026-01-02 17:12:02 - [TEST_STEP][PASSED] - tap(btnEmailOption, 10): Tapped on element 'Object Repository/btn-text-Email-Option'
+
+2026-01-02 17:12:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-text-Email-Option'
+
+2026-01-02 17:12:03 - [TEST_STEP][PASSED] - waitForElementPresent(inputEmail, 10): Element 'Object Repository/edt-Input-Email' is present
+
+2026-01-02 17:12:03 - [MESSAGE][PASSED] - Element 'Object Repository/edt-Input-Email' is present
+
+2026-01-02 17:12:03 - [TEST_STEP][PASSED] - tap(inputEmail, 10): Tapped on element 'Object Repository/edt-Input-Email'
+
+2026-01-02 17:12:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/edt-Input-Email'
+
+2026-01-02 17:12:03 - [TEST_STEP][PASSED] - setText(inputEmail, email, 10): Text 'prod@gmail' has been set to element 'Object Repository/edt-Input-Email'
+
+2026-01-02 17:12:05 - [MESSAGE][PASSED] - Text 'prod@gmail' has been set to element 'Object Repository/edt-Input-Email'
+
+2026-01-02 17:12:05 - [TEST_STEP][PASSED] - tap(chkAgreement, 10): Tapped on element 'Object Repository/btn-CheckBox'
+
+2026-01-02 17:12:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-CheckBox'
+
+2026-01-02 17:12:06 - [TEST_STEP][PASSED] - waitForElementAttributeValue(btnMasuk, "enabled", "true", 10): Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:12:07 - [MESSAGE][PASSED] - Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:12:07 - [TEST_STEP][PASSED] - verifyElementAttributeValue(btnMasuk, "enabled", "true", 10): Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:12:07 - [MESSAGE][PASSED] - Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:12:07 - [TEST_STEP][PASSED] - tap(btnMasuk, 10): Tapped on element 'Object Repository/btn-Masuk'
+
+2026-01-02 17:12:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Masuk'
+
+2026-01-02 17:12:07 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2026-01-02 17:12:08 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login by WA" time="23.784" classname="Test Cases/Login by WA" status="PASSED">
+         <system-out><![CDATA[2026-01-02 17:12:08 - [TEST_CASE][PASSED] - Test Cases/Login by WA: Test Cases/Login by WA
+
+2026-01-02 17:12:08 - [TEST_STEP][PASSED] - startExistingApplication("id.co.labamu.app"): Starting app with application ID: 'id.co.labamu.app'
+
+2026-01-02 17:12:08 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2026-01-02 17:12:09 - [MESSAGE][INFO] - Appium server started on port 49,540
+
+2026-01-02 17:12:21 - [MESSAGE][PASSED] - Starting app with application ID: 'id.co.labamu.app'
+
+2026-01-02 17:12:21 - [TEST_STEP][PASSED] - widget = findTestObject("Object Repository/btn-Widget-While"): null
+
+2026-01-02 17:12:21 - [TEST_STEP][PASSED] - if (waitForElementPresent(widget, 5)): Object Object Repository/btn-Widget-While not found
+
+2026-01-02 17:12:26 - [MESSAGE][WARNING] - Object Object Repository/btn-Widget-While not found
+
+2026-01-02 17:12:26 - [TEST_STEP][PASSED] - else: null
+
+2026-01-02 17:12:26 - [TEST_STEP][PASSED] - println("Widget tidak muncul, lanjut step berikutnya"): null
+
+2026-01-02 17:12:26 - [TEST_STEP][PASSED] - edtWA = findTestObject("Object Repository/edt-WA"): null
+
+2026-01-02 17:12:26 - [TEST_STEP][PASSED] - chkAgreement = findTestObject("Object Repository/btn-CheckBox"): null
+
+2026-01-02 17:12:26 - [TEST_STEP][PASSED] - btnMasuk = findTestObject("Object Repository/btn-Masuk"): null
+
+2026-01-02 17:12:26 - [TEST_STEP][PASSED] - waitForElementPresent(edtWA, 10): Element 'Object Repository/edt-WA' is present
+
+2026-01-02 17:12:26 - [MESSAGE][PASSED] - Element 'Object Repository/edt-WA' is present
+
+2026-01-02 17:12:26 - [TEST_STEP][PASSED] - tap(edtWA, 10): Tapped on element 'Object Repository/edt-WA'
+
+2026-01-02 17:12:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/edt-WA'
+
+2026-01-02 17:12:27 - [TEST_STEP][PASSED] - setText(edtWA, wa, 10): Text '8380718912' has been set to element 'Object Repository/edt-WA'
+
+2026-01-02 17:12:28 - [MESSAGE][PASSED] - Text '8380718912' has been set to element 'Object Repository/edt-WA'
+
+2026-01-02 17:12:28 - [TEST_STEP][PASSED] - tap(chkAgreement, 10): Tapped on element 'Object Repository/btn-CheckBox'
+
+2026-01-02 17:12:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-CheckBox'
+
+2026-01-02 17:12:30 - [TEST_STEP][PASSED] - waitForElementAttributeValue(btnMasuk, "enabled", "true", 10): Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:12:31 - [MESSAGE][PASSED] - Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:12:31 - [TEST_STEP][PASSED] - verifyElementAttributeValue(btnMasuk, "enabled", "true", 0): Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:12:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2026-01-02 17:12:31 - [MESSAGE][PASSED] - Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:12:31 - [TEST_STEP][PASSED] - tap(btnMasuk, 10): Tapped on element 'Object Repository/btn-Masuk'
+
+2026-01-02 17:12:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Masuk'
+
+2026-01-02 17:12:31 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2026-01-02 17:12:31 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login by WA" time="25.519" classname="Test Cases/Login by WA" status="PASSED">
+         <system-out><![CDATA[2026-01-02 17:12:31 - [TEST_CASE][PASSED] - Test Cases/Login by WA: Test Cases/Login by WA
+
+2026-01-02 17:12:31 - [TEST_STEP][PASSED] - startExistingApplication("id.co.labamu.app"): Starting app with application ID: 'id.co.labamu.app'
+
+2026-01-02 17:12:31 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2026-01-02 17:12:32 - [MESSAGE][INFO] - Appium server started on port 49,184
+
+2026-01-02 17:12:44 - [MESSAGE][PASSED] - Starting app with application ID: 'id.co.labamu.app'
+
+2026-01-02 17:12:44 - [TEST_STEP][PASSED] - widget = findTestObject("Object Repository/btn-Widget-While"): null
+
+2026-01-02 17:12:44 - [TEST_STEP][PASSED] - if (waitForElementPresent(widget, 5)): Object Object Repository/btn-Widget-While not found
+
+2026-01-02 17:12:49 - [MESSAGE][WARNING] - Object Object Repository/btn-Widget-While not found
+
+2026-01-02 17:12:49 - [TEST_STEP][PASSED] - else: null
+
+2026-01-02 17:12:49 - [TEST_STEP][PASSED] - println("Widget tidak muncul, lanjut step berikutnya"): null
+
+2026-01-02 17:12:49 - [TEST_STEP][PASSED] - edtWA = findTestObject("Object Repository/edt-WA"): null
+
+2026-01-02 17:12:50 - [TEST_STEP][PASSED] - chkAgreement = findTestObject("Object Repository/btn-CheckBox"): null
+
+2026-01-02 17:12:50 - [TEST_STEP][PASSED] - btnMasuk = findTestObject("Object Repository/btn-Masuk"): null
+
+2026-01-02 17:12:50 - [TEST_STEP][PASSED] - waitForElementPresent(edtWA, 10): Element 'Object Repository/edt-WA' is present
+
+2026-01-02 17:12:50 - [MESSAGE][PASSED] - Element 'Object Repository/edt-WA' is present
+
+2026-01-02 17:12:50 - [TEST_STEP][PASSED] - tap(edtWA, 10): Tapped on element 'Object Repository/edt-WA'
+
+2026-01-02 17:12:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/edt-WA'
+
+2026-01-02 17:12:50 - [TEST_STEP][PASSED] - setText(edtWA, wa, 10): Text '8129301980' has been set to element 'Object Repository/edt-WA'
+
+2026-01-02 17:12:52 - [MESSAGE][PASSED] - Text '8129301980' has been set to element 'Object Repository/edt-WA'
+
+2026-01-02 17:12:52 - [TEST_STEP][PASSED] - tap(chkAgreement, 10): Tapped on element 'Object Repository/btn-CheckBox'
+
+2026-01-02 17:12:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-CheckBox'
+
+2026-01-02 17:12:54 - [TEST_STEP][PASSED] - waitForElementAttributeValue(btnMasuk, "enabled", "true", 10): Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:12:54 - [MESSAGE][PASSED] - Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:12:54 - [TEST_STEP][PASSED] - verifyElementAttributeValue(btnMasuk, "enabled", "true", 0): Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:12:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2026-01-02 17:12:55 - [MESSAGE][PASSED] - Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:12:55 - [TEST_STEP][PASSED] - tap(btnMasuk, 10): Tapped on element 'Object Repository/btn-Masuk'
+
+2026-01-02 17:12:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Masuk'
+
+2026-01-02 17:12:56 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2026-01-02 17:12:57 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login by WA" time="23.632" classname="Test Cases/Login by WA" status="PASSED">
+         <system-out><![CDATA[2026-01-02 17:12:57 - [TEST_CASE][PASSED] - Test Cases/Login by WA: Test Cases/Login by WA
+
+2026-01-02 17:12:57 - [TEST_STEP][PASSED] - startExistingApplication("id.co.labamu.app"): Starting app with application ID: 'id.co.labamu.app'
+
+2026-01-02 17:12:57 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2026-01-02 17:12:58 - [MESSAGE][INFO] - Appium server started on port 58,521
+
+2026-01-02 17:13:10 - [MESSAGE][PASSED] - Starting app with application ID: 'id.co.labamu.app'
+
+2026-01-02 17:13:10 - [TEST_STEP][PASSED] - widget = findTestObject("Object Repository/btn-Widget-While"): null
+
+2026-01-02 17:13:10 - [TEST_STEP][PASSED] - if (waitForElementPresent(widget, 5)): Object Object Repository/btn-Widget-While not found
+
+2026-01-02 17:13:15 - [MESSAGE][WARNING] - Object Object Repository/btn-Widget-While not found
+
+2026-01-02 17:13:15 - [TEST_STEP][PASSED] - else: null
+
+2026-01-02 17:13:15 - [TEST_STEP][PASSED] - println("Widget tidak muncul, lanjut step berikutnya"): null
+
+2026-01-02 17:13:15 - [TEST_STEP][PASSED] - edtWA = findTestObject("Object Repository/edt-WA"): null
+
+2026-01-02 17:13:15 - [TEST_STEP][PASSED] - chkAgreement = findTestObject("Object Repository/btn-CheckBox"): null
+
+2026-01-02 17:13:15 - [TEST_STEP][PASSED] - btnMasuk = findTestObject("Object Repository/btn-Masuk"): null
+
+2026-01-02 17:13:15 - [TEST_STEP][PASSED] - waitForElementPresent(edtWA, 10): Element 'Object Repository/edt-WA' is present
+
+2026-01-02 17:13:15 - [MESSAGE][PASSED] - Element 'Object Repository/edt-WA' is present
+
+2026-01-02 17:13:15 - [TEST_STEP][PASSED] - tap(edtWA, 10): Tapped on element 'Object Repository/edt-WA'
+
+2026-01-02 17:13:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/edt-WA'
+
+2026-01-02 17:13:16 - [TEST_STEP][PASSED] - setText(edtWA, wa, 10): Text '87871296344' has been set to element 'Object Repository/edt-WA'
+
+2026-01-02 17:13:17 - [MESSAGE][PASSED] - Text '87871296344' has been set to element 'Object Repository/edt-WA'
+
+2026-01-02 17:13:17 - [TEST_STEP][PASSED] - tap(chkAgreement, 10): Tapped on element 'Object Repository/btn-CheckBox'
+
+2026-01-02 17:13:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-CheckBox'
+
+2026-01-02 17:13:19 - [TEST_STEP][PASSED] - waitForElementAttributeValue(btnMasuk, "enabled", "true", 10): Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:13:20 - [MESSAGE][PASSED] - Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:13:20 - [TEST_STEP][PASSED] - verifyElementAttributeValue(btnMasuk, "enabled", "true", 0): Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:13:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2026-01-02 17:13:20 - [MESSAGE][PASSED] - Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:13:20 - [TEST_STEP][PASSED] - tap(btnMasuk, 10): Tapped on element 'Object Repository/btn-Masuk'
+
+2026-01-02 17:13:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Masuk'
+
+2026-01-02 17:13:20 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2026-01-02 17:13:20 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login by WA" time="23.225" classname="Test Cases/Login by WA" status="PASSED">
+         <system-out><![CDATA[2026-01-02 17:13:21 - [TEST_CASE][PASSED] - Test Cases/Login by WA: Test Cases/Login by WA
+
+2026-01-02 17:13:21 - [TEST_STEP][PASSED] - startExistingApplication("id.co.labamu.app"): Starting app with application ID: 'id.co.labamu.app'
+
+2026-01-02 17:13:21 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2026-01-02 17:13:22 - [MESSAGE][INFO] - Appium server started on port 59,024
+
+2026-01-02 17:13:33 - [MESSAGE][PASSED] - Starting app with application ID: 'id.co.labamu.app'
+
+2026-01-02 17:13:33 - [TEST_STEP][PASSED] - widget = findTestObject("Object Repository/btn-Widget-While"): null
+
+2026-01-02 17:13:33 - [TEST_STEP][PASSED] - if (waitForElementPresent(widget, 5)): Object Object Repository/btn-Widget-While not found
+
+2026-01-02 17:13:38 - [MESSAGE][WARNING] - Object Object Repository/btn-Widget-While not found
+
+2026-01-02 17:13:38 - [TEST_STEP][PASSED] - else: null
+
+2026-01-02 17:13:38 - [TEST_STEP][PASSED] - println("Widget tidak muncul, lanjut step berikutnya"): null
+
+2026-01-02 17:13:38 - [TEST_STEP][PASSED] - edtWA = findTestObject("Object Repository/edt-WA"): null
+
+2026-01-02 17:13:38 - [TEST_STEP][PASSED] - chkAgreement = findTestObject("Object Repository/btn-CheckBox"): null
+
+2026-01-02 17:13:38 - [TEST_STEP][PASSED] - btnMasuk = findTestObject("Object Repository/btn-Masuk"): null
+
+2026-01-02 17:13:38 - [TEST_STEP][PASSED] - waitForElementPresent(edtWA, 10): Element 'Object Repository/edt-WA' is present
+
+2026-01-02 17:13:38 - [MESSAGE][PASSED] - Element 'Object Repository/edt-WA' is present
+
+2026-01-02 17:13:38 - [TEST_STEP][PASSED] - tap(edtWA, 10): Tapped on element 'Object Repository/edt-WA'
+
+2026-01-02 17:13:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/edt-WA'
+
+2026-01-02 17:13:39 - [TEST_STEP][PASSED] - setText(edtWA, wa, 10): Text '83812194' has been set to element 'Object Repository/edt-WA'
+
+2026-01-02 17:13:40 - [MESSAGE][PASSED] - Text '83812194' has been set to element 'Object Repository/edt-WA'
+
+2026-01-02 17:13:40 - [TEST_STEP][PASSED] - tap(chkAgreement, 10): Tapped on element 'Object Repository/btn-CheckBox'
+
+2026-01-02 17:13:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-CheckBox'
+
+2026-01-02 17:13:42 - [TEST_STEP][PASSED] - waitForElementAttributeValue(btnMasuk, "enabled", "true", 10): Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:13:43 - [MESSAGE][PASSED] - Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:13:43 - [TEST_STEP][PASSED] - verifyElementAttributeValue(btnMasuk, "enabled", "true", 0): Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:13:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2026-01-02 17:13:43 - [MESSAGE][PASSED] - Object 'Object Repository/btn-Masuk' has attribute 'enabled' with value 'true'
+
+2026-01-02 17:13:43 - [TEST_STEP][PASSED] - tap(btnMasuk, 10): Tapped on element 'Object Repository/btn-Masuk'
+
+2026-01-02 17:13:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/btn-Masuk'
+
+2026-01-02 17:13:43 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2026-01-02 17:13:44 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2026-01-02 17:10:27 - [TEST_SUITE][PASSED] - Login: Test Cases/Login by WA]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

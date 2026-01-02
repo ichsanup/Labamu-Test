@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/Login by Email","testCaseId":"Test Cases/Login by Email","iterationVariableName":"","bindedValues":{"email":"\u0027tester@gmail.com\u0027"}}
+{"testCaseName":"Test Cases/Login by Email","testCaseId":"Test Cases/Login by Email","iterationVariableName":"","bindedValues":{"email":"\u0027test@gmail.com\u0027"}}
+{"testCaseName":"Test Cases/Login by Email","testCaseId":"Test Cases/Login by Email","iterationVariableName":"","bindedValues":{"email":"\u0027abc@com\u0027"}}
+{"testCaseName":"Test Cases/Login by Email","testCaseId":"Test Cases/Login by Email","iterationVariableName":"","bindedValues":{"email":"\u0027prod@gmail\u0027"}}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login by WA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c0dfc5c9-34c6-42f9-85a7-e32226d9e8c0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d8cb9854-bf35-4c32-9690-5a05785b8d54</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'81219479487'</defaultValue>
+      <description></description>
+      <id>d8cb9854-bf35-4c32-9690-5a05785b8d54</id>
+      <masked>false</masked>
+      <name>wa</name>
+   </variable>
+</TestCaseEntity>

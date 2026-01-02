@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login by Email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f89da69e-a685-4182-98c4-6940ad922074</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c050bc86-3614-4ccf-ad0e-4ee6339a2a90</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'juannutz0700@gmail.com'</defaultValue>
+      <description></description>
+      <id>c050bc86-3614-4ccf-ad0e-4ee6339a2a90</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

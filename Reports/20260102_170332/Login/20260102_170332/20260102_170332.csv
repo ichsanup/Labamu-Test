@@ -1,0 +1,74 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,,,,2026-01-02 17:03:34,2026-01-02 17:05:29,1m - 54.800s,FAILED
+,,,,,,,
+Test Cases/Login by Email,,,,2026-01-02 17:03:34,2026-01-02 17:04:02,27.572s,PASSED
+"startExistingApplication(""id.co.labamu.app"")",,,,2026-01-02 17:03:35,2026-01-02 17:03:50,15.320s,PASSED
+"widget = findTestObject(""Object Repository/btn-Widget-While"")",,,,2026-01-02 17:03:50,2026-01-02 17:03:50,0.053s,PASSED
+"if (waitForElementPresent(widget, 5))",,,,2026-01-02 17:03:50,2026-01-02 17:03:55,5.085s,PASSED
+else,,,,2026-01-02 17:03:55,2026-01-02 17:03:55,0.013s,PASSED
+"btnEmailOption = findTestObject(""Object Repository/btn-text-Email-Option"")",,,,2026-01-02 17:03:55,2026-01-02 17:03:55,0.048s,PASSED
+"inputEmail = findTestObject(""Object Repository/edt-Input-Email"")",,,,2026-01-02 17:03:55,2026-01-02 17:03:55,0.040s,PASSED
+"chkAgreement = findTestObject(""Object Repository/btn-CheckBox"")",,,,2026-01-02 17:03:55,2026-01-02 17:03:55,0.045s,PASSED
+"btnMasuk = findTestObject(""Object Repository/btn-Masuk"")",,,,2026-01-02 17:03:55,2026-01-02 17:03:55,0.040s,PASSED
+"waitForElementPresent(btnEmailOption, 10)",,,,2026-01-02 17:03:55,2026-01-02 17:03:56,0.295s,PASSED
+"tap(btnEmailOption, 10)",,,,2026-01-02 17:03:56,2026-01-02 17:03:56,0.364s,PASSED
+"waitForElementPresent(inputEmail, 10)",,,,2026-01-02 17:03:56,2026-01-02 17:03:57,0.720s,PASSED
+"tap(inputEmail, 10)",,,,2026-01-02 17:03:57,2026-01-02 17:03:57,0.324s,PASSED
+"setText(inputEmail, email, 10)",,,,2026-01-02 17:03:57,2026-01-02 17:03:59,2.204s,PASSED
+"tap(chkAgreement, 10)",,,,2026-01-02 17:03:59,2026-01-02 17:04:00,0.813s,PASSED
+"waitForElementAttributeValue(btnMasuk, ""enabled"", ""true"", 10)",,,,2026-01-02 17:04:00,2026-01-02 17:04:01,0.866s,PASSED
+"verifyElementAttributeValue(btnMasuk, ""enabled"", ""true"", 10)",,,,2026-01-02 17:04:01,2026-01-02 17:04:01,0.171s,PASSED
+"tap(btnMasuk, 10)",,,,2026-01-02 17:04:01,2026-01-02 17:04:01,0.225s,PASSED
+closeApplication(),,,,2026-01-02 17:04:01,2026-01-02 17:04:02,0.615s,PASSED
+,,,,,,,
+Test Cases/Login by Email,,,,2026-01-02 17:04:02,2026-01-02 17:04:26,24.634s,PASSED
+"startExistingApplication(""id.co.labamu.app"")",,,,2026-01-02 17:04:02,2026-01-02 17:04:15,12.967s,PASSED
+"widget = findTestObject(""Object Repository/btn-Widget-While"")",,,,2026-01-02 17:04:15,2026-01-02 17:04:15,0.044s,PASSED
+"if (waitForElementPresent(widget, 5))",,,,2026-01-02 17:04:15,2026-01-02 17:04:20,5.104s,PASSED
+else,,,,2026-01-02 17:04:20,2026-01-02 17:04:20,0.000s,PASSED
+"btnEmailOption = findTestObject(""Object Repository/btn-text-Email-Option"")",,,,2026-01-02 17:04:20,2026-01-02 17:04:20,0.040s,PASSED
+"inputEmail = findTestObject(""Object Repository/edt-Input-Email"")",,,,2026-01-02 17:04:20,2026-01-02 17:04:20,0.038s,PASSED
+"chkAgreement = findTestObject(""Object Repository/btn-CheckBox"")",,,,2026-01-02 17:04:20,2026-01-02 17:04:20,0.039s,PASSED
+"btnMasuk = findTestObject(""Object Repository/btn-Masuk"")",,,,2026-01-02 17:04:20,2026-01-02 17:04:20,0.038s,PASSED
+"waitForElementPresent(btnEmailOption, 10)",,,,2026-01-02 17:04:20,2026-01-02 17:04:20,0.289s,PASSED
+"tap(btnEmailOption, 10)",,,,2026-01-02 17:04:20,2026-01-02 17:04:21,0.364s,PASSED
+"waitForElementPresent(inputEmail, 10)",,,,2026-01-02 17:04:21,2026-01-02 17:04:22,0.780s,PASSED
+"tap(inputEmail, 10)",,,,2026-01-02 17:04:22,2026-01-02 17:04:22,0.320s,PASSED
+"setText(inputEmail, email, 10)",,,,2026-01-02 17:04:22,2026-01-02 17:04:24,2.116s,PASSED
+"tap(chkAgreement, 10)",,,,2026-01-02 17:04:24,2026-01-02 17:04:25,0.846s,PASSED
+"waitForElementAttributeValue(btnMasuk, ""enabled"", ""true"", 10)",,,,2026-01-02 17:04:25,2026-01-02 17:04:26,0.829s,PASSED
+"verifyElementAttributeValue(btnMasuk, ""enabled"", ""true"", 10)",,,,2026-01-02 17:04:26,2026-01-02 17:04:26,0.161s,PASSED
+"tap(btnMasuk, 10)",,,,2026-01-02 17:04:26,2026-01-02 17:04:26,0.259s,PASSED
+closeApplication(),,,,2026-01-02 17:04:26,2026-01-02 17:04:26,0.388s,PASSED
+,,,,,,,
+Test Cases/Login by Email,,,,2026-01-02 17:04:27,2026-01-02 17:05:06,39.103s,FAILED
+"startExistingApplication(""id.co.labamu.app"")",,,,2026-01-02 17:04:27,2026-01-02 17:04:39,12.841s,PASSED
+"widget = findTestObject(""Object Repository/btn-Widget-While"")",,,,2026-01-02 17:04:39,2026-01-02 17:04:39,0.041s,PASSED
+"if (waitForElementPresent(widget, 5))",,,,2026-01-02 17:04:39,2026-01-02 17:04:45,5.104s,PASSED
+else,,,,2026-01-02 17:04:45,2026-01-02 17:04:45,0.000s,PASSED
+"btnEmailOption = findTestObject(""Object Repository/btn-text-Email-Option"")",,,,2026-01-02 17:04:45,2026-01-02 17:04:45,0.045s,PASSED
+"inputEmail = findTestObject(""Object Repository/edt-Input-Email"")",,,,2026-01-02 17:04:45,2026-01-02 17:04:45,0.039s,PASSED
+"chkAgreement = findTestObject(""Object Repository/btn-CheckBox"")",,,,2026-01-02 17:04:45,2026-01-02 17:04:45,0.039s,PASSED
+"btnMasuk = findTestObject(""Object Repository/btn-Masuk"")",,,,2026-01-02 17:04:45,2026-01-02 17:04:45,0.039s,PASSED
+"waitForElementPresent(btnEmailOption, 10)",,,,2026-01-02 17:04:45,2026-01-02 17:04:55,10.020s,PASSED
+"tap(btnEmailOption, 10)",,,,2026-01-02 17:04:55,2026-01-02 17:05:06,10.919s,FAILED
+,,,,,,,
+Test Cases/Login by Email,,,,2026-01-02 17:05:06,2026-01-02 17:05:29,23.174s,PASSED
+"startExistingApplication(""id.co.labamu.app"")",,,,2026-01-02 17:05:06,2026-01-02 17:05:17,11.277s,PASSED
+"widget = findTestObject(""Object Repository/btn-Widget-While"")",,,,2026-01-02 17:05:17,2026-01-02 17:05:17,0.042s,PASSED
+"if (waitForElementPresent(widget, 5))",,,,2026-01-02 17:05:17,2026-01-02 17:05:22,5.167s,PASSED
+else,,,,2026-01-02 17:05:22,2026-01-02 17:05:22,0.000s,PASSED
+"btnEmailOption = findTestObject(""Object Repository/btn-text-Email-Option"")",,,,2026-01-02 17:05:22,2026-01-02 17:05:22,0.036s,PASSED
+"inputEmail = findTestObject(""Object Repository/edt-Input-Email"")",,,,2026-01-02 17:05:22,2026-01-02 17:05:22,0.041s,PASSED
+"chkAgreement = findTestObject(""Object Repository/btn-CheckBox"")",,,,2026-01-02 17:05:22,2026-01-02 17:05:22,0.036s,PASSED
+"btnMasuk = findTestObject(""Object Repository/btn-Masuk"")",,,,2026-01-02 17:05:22,2026-01-02 17:05:22,0.037s,PASSED
+"waitForElementPresent(btnEmailOption, 10)",,,,2026-01-02 17:05:22,2026-01-02 17:05:23,0.245s,PASSED
+"tap(btnEmailOption, 10)",,,,2026-01-02 17:05:23,2026-01-02 17:05:23,0.358s,PASSED
+"waitForElementPresent(inputEmail, 10)",,,,2026-01-02 17:05:23,2026-01-02 17:05:24,0.722s,PASSED
+"tap(inputEmail, 10)",,,,2026-01-02 17:05:24,2026-01-02 17:05:24,0.337s,PASSED
+"setText(inputEmail, email, 10)",,,,2026-01-02 17:05:24,2026-01-02 17:05:26,2.462s,PASSED
+"tap(chkAgreement, 10)",,,,2026-01-02 17:05:26,2026-01-02 17:05:27,0.804s,PASSED
+"waitForElementAttributeValue(btnMasuk, ""enabled"", ""true"", 10)",,,,2026-01-02 17:05:27,2026-01-02 17:05:28,0.801s,PASSED
+"verifyElementAttributeValue(btnMasuk, ""enabled"", ""true"", 10)",,,,2026-01-02 17:05:28,2026-01-02 17:05:28,0.172s,PASSED
+"tap(btnMasuk, 10)",,,,2026-01-02 17:05:28,2026-01-02 17:05:28,0.230s,PASSED
+closeApplication(),,,,2026-01-02 17:05:28,2026-01-02 17:05:29,0.396s,PASSED
